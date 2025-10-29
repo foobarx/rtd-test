@@ -235,14 +235,6 @@ This user can then be used to log in when prompted (1), after going to the /admi
 
 The superuser account can then be exited, by clicking 'LOG OUT' (1).
 
-
-
-
-
-
-
-
-
 Documentation todo
 ------------------
 
@@ -256,30 +248,4 @@ Sample data
 How to get back to non-admin workflow
 Psueod samples are per order
 Delete row and recreate
-
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameterx should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
