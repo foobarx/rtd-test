@@ -22,11 +22,16 @@ Access to the application requires an account to be created, so that information
 
 To register for access:
 
-Click 'Register' (1a)  or 'Register here' (1b).
+Click 'Register' (1)  or 'Register here'.
 
-Supply a username (1) and password (2), ensuring that the password complies with the password rules shown. Click 'Create Account' (3).
+Supply a username (2) and password (3), ensuring that the password complies with the password rules shown. Click 'Create Account' (4).
 
 Once created, the user remains logged in.
+
+.. image:: _static/registration_fixup.png
+   :alt: Registration
+   :width: 400px
+   :align: center
 
 Create a project
 ----------------
@@ -35,7 +40,17 @@ A project is a mandatory construct used to gather all sequences and metadata for
 
 Create a project by clicking 'Create Your First Project' (1).
 
+.. image:: _static/project_fixup.png
+   :alt: Project
+   :width: 400px
+   :align: center
+
 At a minimum, populate the 'Title' (1)  and 'Alias' (2) fields, and then click 'Submit project' (3).
+
+.. image:: _static/project_create_fixup.png
+   :alt: Project create
+   :width: 400px
+   :align: center
 
 Create an order
 ---------------
@@ -44,7 +59,28 @@ An order is a collection of samples and associated metadata / analyses within a 
 
 Create an order by clicking 'View Orders' (1) and on the following screen, by clicking 'Request New Order' (1).
 
+.. image:: _static/order_fixup.png
+   :alt: Order
+   :width: 400px
+   :align: center
+
+.. image:: _static/order_request_fixup.png
+   :alt: Order request
+   :width: 400px
+   :align: center
+
 At a minimum, populate the (customer) 'Name' (1) field and then click 'Create Order' (2).
+
+.. image:: _static/order_create_1_fixup.png
+   :alt: Order create 1
+   :width: 400px
+   :align: center
+
+.. image:: _static/order_create_2_fixup.png
+   :alt: Order create 2
+   :width: 400px
+   :align: center
+
 
 Configuring checklists for an order
 -----------------------------------
@@ -53,24 +89,54 @@ After the generic order metadata has been captured, a MIxS checklist should be c
 
 Click 'Setup Checklists' (1).
 
+.. image:: _static/order_summary_fixup.png
+   :alt: Order summary
+   :width: 400px
+   :align: center
+
 On the following screen, click the desired checklist eg. (1) and then click 'Proceed to Sample Data' (2). 
 
 When the most appropriate checklist is not yet known, a search term corresponding to a field which may be present in a checklist can be entered in the box at (3). Suitable checklists will be shortlisted.
 
-The fields in a checklist can be previewed by clicking eg. (4), as shown at (5).
+Any particular checklist is likely to contain more fields than can expected to be populated. The actual fields presented to allow metadata to be entered can be chosen by clicking 'Customize Fields' (4). On the follwing screen, the total number of fields for a particular checklist, and the number of which are mandatory and optional are shown in (1). Mandatory fields are shown in red boxes (2), whereas optional fields are shown in blue (3). The latter can be deselected by clicking the checkbox to the left of each box (4). All optional fields can deselected, or reselected using (5). Specific fields can be located by entering a seach term into the box at (6). The field selection choices can be finalised by clicking 'Save and Continue'.
 
-Any particular checklist is likely to contain more fields than can expected to be populated. The actual fields presented to allow metadata to be entered can be chosen by clicking 'Customize Fields' (6). On the follwing screen, the total number of fields for a particular checklist, and the number of which are mandatory and optional are shown in (1). Mandatory fields are shown in red boxes (2), whereas optional fields are shown in blue (2). The latter can be deselected by clicking the checkbox to the left of each box (3). All optional fields can deselected, or reselected using (4). Specific fields can be located by entering a seach term into the box at (5). The field selection choices can be finalised by clicking 'Save and Continue' (6).
+.. image:: _static/optional_fields_fixup.png
+   :alt: Optional fields
+   :width: 400px
+   :align: center
+
 
 Adding sample data to an order
 ------------------------------
 
-Once a checklist has been chosen for an order, the sample data relating to the order can be entered, by clicking on 'Add Sample data' (1). On the following screen, a spreadsheet is shown in which the data for multiple samples can be entered (1).
+Once a checklist has been chosen for an order, the sample data relating to the order can be entered, by clicking on 'Add Sample data' (1). On the following screen, a spreadsheet is shown in which the data for multiple samples can be entered.
+
+.. image:: _static/sample_add_data_button_fixup.png
+   :alt: Sample add data button
+   :width: 400px
+   :align: center
+
+.. image:: _static/sample_spreadsheet.png
+   :alt: Sample spreadsheet
+   :width: 400px
+   :align: center
 
 The initial row should be deleted, by clicking 'Delete' in row 1 (1) and then a new sample row can be added by clicking 'Add Sample' (2). The newly added sample will then have a unique sample ID (3). 
 
-Those fields which have a green column heading are generic sample fields, those in blue, pertain to the chosen checklist, and those in grey are optional checklist fields (3).
+.. image:: _static/sample_spreadsheet_delete_fixup.png
+   :alt: Sample spreadsheet delete fixup
+   :width: 400px
+   :align: center
 
-Sample test data can be obtained from the 'Samples' worksheet in test_data.ods. The first row can be selected from the spreadsheet file and and pasted in to the online spreadsheet, starting from the first field (tax_id) (4). The 'Save Samples' button (5) should then be clicked, followed by 'Back to Orders' (6). If there are any field validation issues, these will be highlighted with a dialog (7).
+
+Those fields which have a green column heading are generic sample fields, those in blue, pertain to the chosen checklist, and those in grey are optional checklist fields.
+
+Sample test data can be obtained from the 'Samples' worksheet in test_data.ods. The first row can be selected from the spreadsheet file and and pasted in to the online spreadsheet, starting from the first field (tax_id) (1). The 'Save Samples' button (2) should then be clicked, followed by 'Back to Orders' (3). If there are any field validation issues, these will be highlighted with a dialog.
+
+.. image:: _static/sample_spreadsheet_added_fixup.png
+   :alt: Sample spreadsheet added fixup
+   :width: 400px
+   :align: center
 
 Submitting the order for sequencing
 -----------------------------------
