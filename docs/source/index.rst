@@ -1,5 +1,5 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to the HZI Sequencing Order Management System documentation!
+====================================================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
@@ -23,4 +23,5 @@ Contents
 .. toctree::
 
    usage
-   api
+   local_installation
+   development_notes
