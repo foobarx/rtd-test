@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'NFDI4Microbiota Data Broker'
+copyright = '2025, Helmholtz Zentrum für Infektionsforschung GmbH'
+author = 'Philipp Muench, Gary Robertson'
 
 release = '0.1'
 version = '0.1.0'
@@ -33,3 +33,6 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+html_static_path = ['_static']
+

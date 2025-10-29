@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+name = "NFDI4Microbiota Data Broker"
+authors = [{name = "Philipp Muench", email = "philipp.muench@helmholtz-hzi.de"}, {name = "Gary Robertson", email = "gary.robertson@helmholtz-hzi.de"}]
 dynamic = ["version", "description"]

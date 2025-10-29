@@ -10,6 +10,11 @@ To access a demo installation of the SOMS, point a browser at: https://broker-de
 
 Note that all data entered will be deleted nightly at 00:01 CET.
 
+.. image:: _static/front_page.png
+   :alt: Front page
+   :width: 400px
+   :align: center
+
 Registration
 ------------
 
